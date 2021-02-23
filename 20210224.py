@@ -1,4 +1,5 @@
 # 毫無價值的代碼
+# 再次強調，請大家不要學習
 # 5.033167
 
 import datetime
@@ -82,4 +83,4 @@ def 處理原表(某原表):
 
 提交表 = 預測表.loc[:, ["標識", "預測壓力"]]
 提交表.columns = ["id", "pressure"]
-提交表.to_csv("20210224C.csv", header=True, index=False)
+提交表.to_csv("20210224.csv", header=True, index=False)
